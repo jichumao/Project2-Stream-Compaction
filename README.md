@@ -1,15 +1,14 @@
 CUDA Stream Compaction
 ======================
 
-**University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 2**
-
 * Jichu Mao
   * [LinkedIn](https://www.linkedin.com/in/jichu-mao-a3a980226/)
   *  [Personal Website](https://jichu.art/)
 * Tested on: Windows 11,  i7-13700K @ 3.40 GHz, 32GB, RTX 4090 24GB
 
 ## Overview
-In this project, I implemented GPU-based stream compaction and scan algorithms using CUDA.
+In this project, I implemented GPU-based stream compaction and scan algorithms using CUDA. This project is based on CIS 5650 @ UPenn.
+
 Stream compaction is a critical operation in GPU programming, particularly for applications like path tracing where it's necessary to efficiently remove inactive elements (e.g., terminated rays) from large datasets.
 
 The primary goal was to implement several versions of the scan (prefix sum) algorithm and use them to perform stream compaction:
